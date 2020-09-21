@@ -140,7 +140,7 @@ h6 {
 }
 
 #scissors-image-cpu:hover {
-    box-shadow: 0px 0px 35px -2px #0C3BF9;
+    box-shadow: 0px 0px 35px -2px red;
     cursor: pointer;
 }
 
