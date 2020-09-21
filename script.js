@@ -9,29 +9,21 @@ play = (element) => {
     let result = '';
     // See Who Won!
     if(myChoice == cpuChoice) {
-        console.log('It\'s a tie!')
         result = 'It\'s a tie!';
     } else if(myChoice == 'rock' && cpuChoice == 'scissors') {
-        console.log('You win!')
         result = 'You win!';
     } else if(myChoice == 'rock' && cpuChoice == 'paper') {
-        console.log('You lose!')
         result = 'You lose!';
     } else if(myChoice == 'paper' && cpuChoice == 'rock') {
-        console.log('You win!')
         result = 'You win!';
     } else if(myChoice == 'paper' && cpuChoice == 'scissors') {
-        console.log('You lose!')
         result = 'You lose!';
     } else if(myChoice == 'scissors' && cpuChoice == 'paper') {
-        console.log('You win!')
         result = 'You win!';
     } else {
-        console.log('You lose!')
         result = 'You lose!';
     }        
 
-    console.log(`You picked ${myChoice} and the computer picked ${cpuChoice}.`)
     displayWinner(myChoice, cpuChoice, result);
 }
 
