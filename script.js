@@ -40,6 +40,17 @@ play = (element) => {
 
 
 displayWinner = (myChoice, cpuChoice, result) => {
+    // Get resultMessageColor
+    let resultMessageColor = ''; 
+    if(result == 'You lose!') {
+        resultMessageColor = 'lose';
+    } else if(result == 'You win!') {
+        resultMessageColor = 'win';
+    } else {
+        resultMessageColor = 'tie';
+    }
+    
+
     // Change inner HTML
     document.getElementById('result').innerHTML = `
         <div class="game-container">
@@ -48,7 +59,7 @@ displayWinner = (myChoice, cpuChoice, result) => {
             </div>
             
             <div class="display-result-container">
-                <div id="result-text" class="none">${result}</div>
+                <div id="result-text" class="${resultMessageColor}">${result}</div>
             </div>
 
             <div class="${cpuChoice}-container">
