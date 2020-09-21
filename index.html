@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript on Steroids</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="main-container">
+        <div class="title-container">
+            <h1>Rock Paper Scissors Game</h1>
+        </div>
+        <h2 id="header">Choose!</h2>
+        <div id="result">
+            <div class="game-container">
+                <div class="rock-container">
+                    <div id='rock-image' onclick="play(this)"></div>
+                </div>
+                <div class="paper-container">
+                    <div id="paper-image" onclick="play(this)"></div>
+                </div>
+                <div class="scissors-container">
+                    <div id="scissors-image" onclick="play(this)"></div>
+                </div>
+            </div>
+            <div class="label-container">
+                <h6>Rock</h6><h6>Paper</h6><h6>Scissors</h6>
+            </div>
+        </div>    
+    </div>
+</div>
+
+<script src="script.js"></script>  
+</body>
+</html>

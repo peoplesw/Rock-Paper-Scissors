@@ -1,0 +1,165 @@
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h6 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ADE6FF;
+    color: black;
+}
+
+.title-container {
+    color: #052B6E;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 25px 0px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+/* Rock */
+.rock-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+#rock-image {
+    height: 170px;
+    width: 250px;
+    background-image: url('assets/rock.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#rock-image:hover {
+    box-shadow: 0px 0px 35px -2px #0C3BF9;
+    cursor: pointer;
+}
+
+#rock-image-cpu {
+    height: 170px;
+    width: 250px;
+    background-image: url('assets/rock.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#rock-image-cpu:hover {
+    box-shadow: 0px 0px 35px -2px red;
+    cursor: pointer;
+}
+
+/* Paper */
+.paper-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+#paper-image {
+    height: 250px;
+    width: 200px;
+    background-image: url('assets/paper.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#paper-image:hover {
+    box-shadow: 0px 0px 35px -2px #0C3BF9;
+    cursor: pointer;
+}
+
+#paper-image-cpu {
+    height: 250px;
+    width: 200px;
+    background-image: url('assets/paper.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#paper-image-cpu:hover {
+    box-shadow: 0px 0px 35px -2px red;
+    cursor: pointer;
+}
+
+/* Scissors */
+.scissors-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+#scissors-image {
+    height: 200px;
+    width: 300px;
+    background-image: url('assets/scissors.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#scissors-image:hover {
+    box-shadow: 0px 0px 35px -2px #0C3BF9;
+    cursor: pointer;
+}
+
+#scissors-image-cpu {
+    height: 200px;
+    width: 300px;
+    background-image: url('assets/scissors.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#scissors-image-cpu:hover {
+    box-shadow: 0px 0px 35px -2px #0C3BF9;
+    cursor: pointer;
+}
+
+/* End of Scissors */
+.label-container {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.display-result-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+#result-text {
+    font-size: 30px;
+    font-weight: bold;
+}
